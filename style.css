@@ -100,5 +100,8 @@ header{
 @media screen and (max-width: 590px) {
     .game{
         width: 80%;
-    } 
+    }
+    .gtaSaLoadingLogoContainer{
+        margin-bottom: 3rem;
+    }
 }
