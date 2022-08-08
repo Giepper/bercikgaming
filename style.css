@@ -18,6 +18,9 @@ header{
     width: 100%;
     text-align: center;
 }
+.logoImg{
+    width: 50%;
+}
 .gameHolder{
     display: flex;
     justify-content: center;
@@ -84,6 +87,9 @@ header{
     } 
 }
 @media screen and (max-width: 750px) {
+    .logoImg{
+        width: 100%;
+    }
     .gtaSaLoadingLogoContainer{
         width: 45%;
     }
@@ -92,10 +98,7 @@ header{
     } 
 }
 @media screen and (max-width: 590px) {
-    .logo{
-        width: 50%;
-    }
     .game{
-        width: 50%;
+        width: 80%;
     } 
 }
