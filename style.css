@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #e75620;
+    box-shadow: 1px 1px 5px #000;
+}
+.logo{
+    padding: 1rem;
+}
+.gameHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.game{
+    width: 20%;
+    cursor: pointer;
+}
+.gameImg{
+    width: 100%;
+}
+
+.gamePlace{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+.gtaSaLoadingLogoContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 30%;
+    height: 100vh;
+    padding-bottom: 1rem;
+    position: fixed;
+    z-index: 999;
+}
+.gtaSaLoadingLogo{
+    width: 90%;
+}
+.gtaSaLoadingProgressBar{
+    background-color: #6d6d70;
+    border: 4px solid #000;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loadingContent{
+    width: 0;
+    height: 100%;
+    background-color: #ddd;
+}
